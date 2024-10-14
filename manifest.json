@@ -1,11 +1,11 @@
 {
 	"id": "dataview-interactive-views",
 	"name": "Dataview Interactive Views",
-	"version": "1.0.8",
+	"version": "1.1.0",
 	"minAppVersion": "1.6.0",
 	"description": "Create interactive views with dataview.",
-	"author": "Anareaty",
-	"authorUrl": "https://github.com/anareaty",
-	"fundingUrl": "",
+	"author": "Anareaty (flowing-abyss)",
+	"authorUrl": "https://github.com/flowing-abyss",
+	"fundingUrl": "https://www.donationalerts.com/r/flowing_abyss",
 	"isDesktopOnly": false
 }
