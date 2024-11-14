@@ -942,8 +942,8 @@ class API {
 	}
 
 	getValues(prop: string) {
-		//@ts-ignore
 		let values: any[] =
+			//@ts-ignore
 			this.app.metadataCache.getFrontmatterPropertyValuesForKey(prop);
 		if (prop == "tags") {
 			values = values.map((v) => v.replace("#", ""));
@@ -1883,8 +1883,8 @@ class API {
 				path = noteFolder + "/" + noteName + numString + ".md";
 			}
 
-			//@ts-ignore
 			let checkPath =
+				//@ts-ignore
 				this.app.vault.getAbstractFileByPathInsensitive(path);
 
 			if (checkPath) {
